@@ -15,6 +15,23 @@ export default function PropertyCard({ property }) {
         <span className="corner corner--tl" />
         <span className="corner corner--br" />
         {discount && <span className="property-card__badge">Save {discount}%</span>}
+
+        {property.images && property.images.length > 0 && (
+          <div className="property-card__image-wrap">
+            <img
+              src={property.images[0]}
+              alt={property.name}
+              className="property-card__image"
+              loading="lazy"
+            />
+            {property.images.length > 1 && (
+              <span className="property-card__image-count">
+                +{property.images.length - 1} more
+              </span>
+            )}
+          </div>
+        )}
+
         <p className="property-card__type">{property.type}</p>
         <h3 className="property-card__name">{property.name}</h3>
         <p className="property-card__location">{property.location}</p>
@@ -26,7 +43,9 @@ export default function PropertyCard({ property }) {
           </div>
           <div>
             <span className="meta-label">{property.priceLabel}</span>
-            <span className="meta-value meta-value--gold">{formatNaira(property.price)}</span>
+            <span className="meta-value meta-value--gold">
+              {property.price == null ? "Contact us" : formatNaira(property.price)}
+            </span>
           </div>
         </div>
 

@@ -9,6 +9,7 @@
     "actualPrice": 4500000,
     "priceLabel": "Pre-launch price",
     "status": "Selling fast — 20 plots only",
+    "images": [],
     "landmarks": [
       "Goodswill Akpabio International Stadium",
       "2 Brigade Military Barrack, Uyo",
@@ -32,6 +33,7 @@
     "actualPrice": null,
     "priceLabel": "Asking price",
     "status": "Now selling",
+    "images": [],
     "landmarks": [
       "Ibom Specialist Hospital",
       "Grace Estate",
@@ -55,6 +57,7 @@
     "actualPrice": null,
     "priceLabel": "Asking price",
     "status": "Available",
+    "images": [],
     "landmarks": [
       "Shelter Afrique Estate"
     ],
@@ -64,5 +67,34 @@
       "Genuine title documentation",
       "Nice residential neighbourhood"
     ]
+  },
+  {
+    "id": "family-duplex-uyo",
+    "name": "5-Bedroom Duplex",
+    "type": "House Sale",
+    "location": "Uyo, Akwa Ibom State",
+    "size": "5 Bedroom Duplex",
+    "price": null,
+    "actualPrice": null,
+    "priceLabel": "Price on request",
+    "status": "Available — fully finished, move-in ready",
+    "images": [
+      "/properties/family-duplex/exterior.jpg",
+      "/properties/family-duplex/living-room-1.jpg",
+      "/properties/family-duplex/living-room-2.jpg",
+      "/properties/family-duplex/hallway.jpg",
+      "/properties/family-duplex/yellow-room.jpg",
+      "/properties/family-duplex/bedroom.jpg"
+    ],
+    "landmarks": [],
+    "features": [
+      "Fully tiled throughout with marble-finish flooring",
+      "Fitted kitchen with modern finishing",
+      "Spacious bedrooms with fitted wardrobes",
+      "Ample compound with paved driveway",
+      "Air conditioning in bedrooms",
+      "Gated, secure compound"
+    ]
   }
 ]
+
