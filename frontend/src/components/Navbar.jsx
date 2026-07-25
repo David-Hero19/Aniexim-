@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import OctagonMark from "./OctagonMark.jsx";
 
 const links = [
   { to: "/", label: "Home" },
@@ -24,7 +23,7 @@ export default function Navbar() {
     <header className={`nav ${scrolled ? "nav--scrolled" : ""}`}>
       <div className="nav__inner">
         <NavLink to="/" className="nav__brand" onClick={() => setOpen(false)}>
-          <OctagonMark size={34} />
+          <img src="/logo.jpg" alt="The Aniexim Limited" className="nav__logo" />
           <span className="nav__brand-text">
             The Aniexim <em>Limited</em>
           </span>

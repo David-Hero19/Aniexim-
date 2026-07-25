@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
-import OctagonMark from "./OctagonMark.jsx";
 
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer__inner">
         <div className="footer__brand">
-          <OctagonMark size={44} />
+          <img src="/logo.jpg" alt="The Aniexim Limited" className="footer__logo" />
           <div>
             <p className="footer__name">The Aniexim Limited</p>
             <p className="footer__tag">Handing Out Home Keys</p>
