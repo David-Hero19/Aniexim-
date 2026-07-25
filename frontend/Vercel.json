@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://aniexim.onrender.com/api/$1"
+    }
+  ]
+}
