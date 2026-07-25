@@ -1,0 +1,68 @@
+[
+  {
+    "id": "timaror-smart-estate",
+    "name": "Timaror Smart Estate",
+    "type": "Estate Plot — Buy & Build",
+    "location": "Ekpene Ikpan, Mbierebe Road, Uyo",
+    "size": "450 sqm",
+    "price": 1999000,
+    "actualPrice": 4500000,
+    "priceLabel": "Pre-launch price",
+    "status": "Selling fast — 20 plots only",
+    "landmarks": [
+      "Goodswill Akpabio International Stadium",
+      "2 Brigade Military Barrack, Uyo",
+      "Proposed University",
+      "Off Ring Road 3, Uyo"
+    ],
+    "features": [
+      "Free Deed of Assignment",
+      "Good road network",
+      "Instant allocation",
+      "Free from government interest"
+    ]
+  },
+  {
+    "id": "ecoba-delight-estate",
+    "name": "Ecoba Delight Estate",
+    "type": "Estate Plot",
+    "location": "Ikot Akpan Odung, off Idoro Road, Uyo",
+    "size": "450 sqm",
+    "price": 4500000,
+    "actualPrice": null,
+    "priceLabel": "Asking price",
+    "status": "Now selling",
+    "landmarks": [
+      "Ibom Specialist Hospital",
+      "Grace Estate",
+      "Dakkada Skills Acquisition Centre",
+      "Goodswill Akpabio International Stadium"
+    ],
+    "features": [
+      "Good road network",
+      "Free Deed of Assignment",
+      "No development levy",
+      "Instant allocation"
+    ]
+  },
+  {
+    "id": "shelter-afrique-residential-plot",
+    "name": "Residential Plot — Shelter Afrique",
+    "type": "Land Sale",
+    "location": "Behind Shelter Afrique Estate, Uyo",
+    "size": "465 sqm",
+    "price": 10000000,
+    "actualPrice": null,
+    "priceLabel": "Asking price",
+    "status": "Available",
+    "landmarks": [
+      "Shelter Afrique Estate"
+    ],
+    "features": [
+      "Surveyed & beaconed plot",
+      "Quiet residential layout",
+      "Genuine title documentation",
+      "Nice residential neighbourhood"
+    ]
+  }
+]
